@@ -70,6 +70,6 @@ class FinancialFreedomCalculator:
         return years
 
 # 示例：初始年收入45万，月支出1万，投资回报率5%，每三年跳槽一次，跳槽涨薪50%
-calculator = FinancialFreedomCalculator(1000000, 10000, 0.04, job_hopping_increase_rate=0.0, years_to_hop=3, tax_rate=0.13)
+calculator = FinancialFreedomCalculator(100000, 10000, 0.04, job_hopping_increase_rate=0.0, years_to_hop=3, tax_rate=0.13)
 years_to_freedom = calculator.calculate_years_to_financial_freedom()
 print(years_to_freedom)
